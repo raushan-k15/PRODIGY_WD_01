@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    transition: background-color 0.3s;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+#content {
+    padding-top: 60px; /* to avoid content hidden behind fixed nav */
+}
+
+section {
+    padding: 60px 20px;
+    height: 100vh;
+}
+
+section:nth-of-type(odd) {
+    background-color: #f4f4f4;
+}
+
+section:nth-of-type(even) {
+    background-color: #e2e2e2;
+}
