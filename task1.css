@@ -8,7 +8,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #147590;
     transition: background-color 0.3s;
     z-index: 1000;
 }
@@ -26,15 +26,15 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 20px;
+    padding: 20px 110px;
     text-decoration: none;
     transition: background-color 0.3s, color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #aa1b1b;
     color: #fff;
 }
 
@@ -53,4 +53,12 @@ section:nth-of-type(odd) {
 
 section:nth-of-type(even) {
     background-color: #e2e2e2;
+}
+button{
+    background-color: bisque;
+    margin-top: 16px ;
+    margin-right: 20px;
+}
+#home{
+    background-color: rgb(255, 244, 210);
 }
